@@ -1,0 +1,47 @@
+// Card CSS
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.logo {
+  width: 2.5em;
+  display: inline-block;
+  margin-right: 1em;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.chip {
+  width: 3.5em;
+}
+.balance {
+  color: black;
+}
+.amount {
+  font-weight: 500;
+  font-size: 3em;
+}
+.currency {
+  display: inline-block;
+  font-size: 0.5em;
+}
+
+.available {
+  display: flex;
+  justify-content: flex-end;
+}
+.user-name {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+}
