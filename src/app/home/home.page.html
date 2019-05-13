@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class="welcome-card">
+  <ion-card class="supcoin-card">
     <ion-card-header>
       <ion-card-subtitle class="card-header">
         <ion-img class="logo" src="/assets/supcoin.svg"></ion-img>
@@ -36,4 +36,28 @@
       </ion-card-subtitle>
     </ion-card-header>
   </ion-card>
+
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>Activity</ion-label>
+    </ion-list-header>
+
+    <ion-item no-padding>
+      <ion-card class="activity">
+        <div>
+          <ion-avatar slot="start">
+            <img src="/assets/user.svg" />
+          </ion-avatar>
+          <ion-label class="activity-description">
+            <h3 class="activity-username">Bike</h3>
+            <p class="activity-date">January, 1st 2019</p>
+          </ion-label>
+        </div>
+
+        <ion-label class="activity-amount">
+          -245 USD
+        </ion-label>
+      </ion-card>
+    </ion-item>
+  </ion-list>
 </ion-content>

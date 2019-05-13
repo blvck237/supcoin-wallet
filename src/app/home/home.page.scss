@@ -38,10 +38,56 @@
 .available {
   display: flex;
   justify-content: flex-end;
+  color: var(--ion-color-medium);
+  font-weight: 200;
 }
 .user-name {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.7em;
   letter-spacing: 0.1em;
+}
+
+.supcoin-card {
+  background: url("../../assets/img/card-bg.png");
+  background-size: cover;
+}
+
+.activity {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-description {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+ion-avatar {
+  display: inline-block;
+}
+
+.activity-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-username {
+  color: var(--ion-color-light-contrast);
+  font-weight: 400;
+}
+
+.activity-date {
+  color: var(--ion-color-medium);
+  font-weight: 100;
+}
+
+.activity-amount {
+  font-size: 1.25em;
+  color: var(--ion-color-light-contrast);
+  font-weight: 200;
 }
