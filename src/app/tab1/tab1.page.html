@@ -1,21 +1,32 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab One
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-icon name="person"></ion-icon>
+    </ion-buttons>
+    <ion-title>Send</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
-      <ion-img src="/assets/shapes.svg"></ion-img>
-      <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
-        <ion-card-title>Welcome to Ionic</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
-      </ion-card-content>
-    </ion-card>
-    
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>Suggestion</ion-label>
+    </ion-list-header>
+
+    <ion-item class="suggestion" no-padding>
+      <div>
+        <ion-ripple-effect></ion-ripple-effect>
+        <ion-avatar slot="start">
+          <img src="/assets/user.svg" />
+        </ion-avatar>
+        <ion-label class="suggestion-description">
+          <h3 class="suggestion-username">Jordan Fokoua</h3>
+          <p class="suggestion-address">supcoin.me/mrj237</p>
+        </ion-label>
+      </div>
+    </ion-item>
+  </ion-list>
 </ion-content>
